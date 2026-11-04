@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YourDeal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourDeal Header</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+  <header class="header">
+    <div class="top-bar">
+      <div class="container top-bar-container">
+
+
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="YourDeal Logo" class="logo-img">
+        </a>
+
+
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="Məhsul axtar...">
+        </div>
+
+
+        <div class="user-actions">
+          <a href="#" class="action-btn" title="Favorites">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="#" class="action-btn" title="Account">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a href="#" class="action-btn" title="Cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <nav class="nav-bar">
+      <div class="container nav-bar-container">
+        <ul class="nav-links">
+          <li class="categories-dropdown">
+            <a href="#">
+              <i class="fa-solid fa-bars"></i>
+              <span>Bütün kateqoriyalar</span>
+              <i class="fa-solid fa-chevron-down arrow"></i>
+            </a>
+          </li>
+          <li class="divider"></li>
+          <li><a href="#">Endirimlər</a></li>
+          <li><a href="#">Müqayisə et</a></li>
+          <li><a href="#">Brendlər</a></li>
+          <li><a href="#">Haqqımızda</a></li>
+        </ul>
+
+
+        <a href="#" class="cta-btn">
+          <i class="fa-solid fa-tag"></i>
+          <span>Ən yaxşı təkliflər</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
 </body>
+
 </html>

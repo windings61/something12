@@ -37,7 +37,7 @@ body {
   font-weight: 700;
 }
 
-.li {
+.l-icon {
   background-color: #ffffff;
   color: #0f2d4a;
   padding: 2px 8px;
@@ -45,13 +45,13 @@ body {
   font-size: 18px;
 }
 
-.search-box {
+.sb {
   position: relative;
   flex: 1;
   max-width: 550px;
 }
 
-.search-box input {
+.sb input {
   width: 100%;
   padding: 10px 16px 10px 42px;
   border-radius: 20px;
@@ -61,11 +61,11 @@ body {
   color: #333;
 }
 
-.search-box input::placeholder {
+.sb input::placeholder {
   color: #a0a0a0;
 }
 
-.search-icon {
+.si {
   position: absolute;
   left: 15px;
   top: 50%;
@@ -74,42 +74,42 @@ body {
   font-size: 15px;
 }
 
-.user-actions {
+.ua {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.action-btn {
+.abtn {
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
   transition: opacity 0.2s ease;
 }
 
-.action-btn:hover {
+.abtn:hover {
   opacity: 0.8;
 }
-.nav-bar {
+.nb {
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
   padding: 10px 0;
 }
 
-.nav-bar-container {
+.nbc {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.nav-links {
+.nl {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 25px;
 }
 
-.nav-links a {
+.nl a {
   text-decoration: none;
   color: #1c2b39;
   font-weight: 600;
@@ -120,20 +120,20 @@ body {
   transition: color 0.2s ease;
 }
 
-.nav-links a:hover {
+.nl a:hover {
   color: #00a859;
 }
 
-.categories-dropdown a {
+.cd a {
   color: #0f2d4a;
 }
 
-.divider {
+.di12 {
   width: 1px;
   height: 20px;
   background-color: #e0e0e0;
 }
-.cta-btn {
+.cbtn {
   background-color: #10b981;
   color: #ffffff;
   padding: 8px 18px;
@@ -147,7 +147,7 @@ body {
   transition: background-color 0.2s ease;
 }
 
-.cta-btn:hover {
+.cbtn:hover {
   background-color: #059669;
 }
 .logo {
@@ -158,7 +158,7 @@ body {
 }
 
 .logo-img {
-  height: 36px;       
+  height: 50px;       
   width: auto;        
   object-fit: contain;
   display: block;

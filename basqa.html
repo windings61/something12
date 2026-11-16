@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourDeal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="basqa.css">
+  <link rel="shortcut icon" href="images/mono.png" type="image/x-icon">
+</head>
+
+<body>
+
+  
+
+  <header class="header">
+    <div class="tb">
+      <div class="c tbc">
+
+
+        <a href="index.html" class="l">
+          <img src="images/logo4.png" class="logo-img" style="width: 100px">
+        </a>
+
+
+        <div class="sb">
+          <i class="fa-solid fa-magnifying-glass si"></i>
+          <input type="text" placeholder="Məhsul axtar...">
+        </div>
+
+
+        <div class="ua">
+          <a href="#" class="abtn" title="Favorites">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="login.html" class="abtn" title="Account">
+            <i class="fa-regular fa-user"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <section class="hero-banner">
+    <img src="images/index.png">
+  </section>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <div class="se">
+
+    <a href="#tikinti-temir">
+      <div class="sec">
+        <i style="width: 50px;" data-lucide="hammer"></i>
+        <p>Tikinti və<br>təmir</p>
+      </div>
+    </a>
+
+    <a href="#temizlik">
+      <div class="sec">
+        <i data-lucide="spray-can"></i>
+        <p>Təmizlik</p>
+      </div>
+    </a>
+
+    <a href="#dasinma-neqliyyat">
+      <div class="sec">
+        <i data-lucide="truck"></i>
+        <p>Daşınma</p>
+      </div>
+    </a>
+
+    <a href="#saha-torpaq">
+      <div class="sec">
+        <i data-lucide="leaf"></i>
+        <p>Həyət və bağ</p>
+      </div>
+    </a>
+
+    <a href="#daxili-dizayn">
+      <div class="sec">
+        <i data-lucide="house"></i>
+        <p>Ev və interyer</p>
+      </div>
+    </a>
+
+    <a href="#iqtisadiyyat-huquq">
+      <div class="sec">
+        <i data-lucide="scale"></i>
+        <p>Hüquq və<br>maliyyə</p>
+      </div>
+    </a>
+
+    <a href="#veb-it-dizayn">
+      <div class="sec">
+        <i data-lucide="laptop"></i>
+        <p>Veb, IT və<br>dizayn</p>
+      </div>
+    </a>
+
+    <a href="#emlak">
+      <div class="sec">
+        <i data-lucide="ellipsis"></i>
+        <p>Digər xidmətlər</p>
+      </div>
+    </a>
+
+  </div>
+  <script>lucide.createIcons();</script>
+  <section class="stk">
+
+    <div class="st">
+      <div class="stn">1</div>
+
+      <div class="stc">
+        <h3>Tapşırığınızı göndərin</h3>
+        <p>
+          Bizə nə ilə bağlı kömək istədiyinizi deyin və
+          biz tapşırığınızı düzgün sahədəki düzgün
+          mütəxəssisə yönləndirəcəyik.
+        </p>
+      </div>
+      
+    </div>
+
+    <div class="st">
+      <div class="stn">2</div>
+
+      <div class="stc">
+        <h3>Şirkətlər əlaqə saxlayır</h3>
+        <p>
+          Tapşırığınız dərc olunub və 6 şirkətdən
+          cavab alacaqsınız. Tamamilə pulsuz və heç
+          bir öhdəlik olmadan.
+        </p>
+      </div>
+    </div>
+
+    <div class="st">
+      <div class="stn">3</div>
+
+      <div class="stc">
+        <h3>İşi yerinə yetirin</h3>
+        <p>
+          Müqayisə edin və sizə uyğun bir şirkət seçin.
+          İş bitdikdən sonra rəy yazaraq başqalarına
+          kömək edin.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+
+   
+  </section>
+  <!-- ===================== YAŞIL ZOLAQ ===================== -->
+  <section class="find-band" aria-label="Ən yaxşı yolu tapın">
+    <div class="find-inner">
+      <h2 class="find-title">
+        Tapmağın ən yaxşı yolu
+        <!-- Söz CSS animasiyası ilə dəyişir (JavaScript yoxdur) -->
+        <span class="rotator" aria-hidden="true">
+          <span class="rotator-list">
+            <span>dülgər</span>
+            <span>bağban</span>
+            <span>sənətkar</span>
+            <span>ağac mütəxəssisləri</span>
+            <span>rəssam</span>
+            <span>dülgər</span>
+          </span>
+        </span>
+        <span class="visually-hidden">dülgər, bağban, sənətkar, ağac mütəxəssisləri, rəssam</span>
+      </h2>
+    </div>
+  </section>
+
+  <!-- ===================== PƏNCƏRƏLƏR ===================== -->
+    <div class="modal" id="tikinti-temir">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-tikinti-temir">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label" style="font-size: 25px;">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=tikinti-temir&service=divar-kagizi">Daxili rənglər və divar
+              kağızı</a>
+            <a class="chip" href="/request?category=tikinti-temir&service=elektrikci">Elektrikçi</a>
+            <a class="chip" href="/request?category=tikinti-temir&service=temir">Təmir</a>
+            <a class="chip" href="/request?category=tikinti-temir&service=hamam-temiri">Hamam otağının təmiri</a>
+            <a class="chip" href="/request?category=tikinti-temir&service=santexnik">Santexnik</a>
+            <a class="chip" href="/request?category=tikinti-temir&service=doseme-zimparasi">Döşəmə zımparası, yağ və
+              lak</a>
+          </div>
+          <h2 class="modal-title" id="t-tikinti-temir" style="font-size: 25px;">İçindəki hər şey tikinti və təmir</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=tikinti-temir&service=balkon-qis-bagi">Balkon və qış bağı</a></li>
+            <li><a href="/request?category=tikinti-temir&service=nemsizlesdirme">Nəmsizləşdirmə</a></li>
+            <li><a href="/request?category=tikinti-temir&service=hamam-temiri">Hamam otağının təmiri</a></li>
+            <li><a href="/request?category=tikinti-temir&service=balkon">Balkon</a></li>
+            <li><a href="/request?category=tikinti-temir&service=istilik-nasoslari">Yerüstü istilik nasosları</a></li>
+            <li><a href="/request?category=tikinti-temir&service=beton-isleri">Beton işləri</a></li>
+            <li><a href="/request?category=tikinti-temir&service=metbex-temiri">Mətbəx təmiri</a></li>
+            <li><a href="/request?category=tikinti-temir&service=dam-ortuyu">Dam örtüyü</a></li>
+            <li><a href="/request?category=tikinti-temir&service=pencere-qapi">Pəncərə və qapı quraşdırılması</a></li>
+            <li><a href="/request?category=tikinti-temir&service=kafel-plite">Kafel və plitə döşənməsi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="temizlik">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-temizlik">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=temizlik&service=ev-temizliyi">Ev təmizliyi</a>
+            <a class="chip" href="/request?category=temizlik&service=temir-sonrasi">Təmir sonrası təmizlik</a>
+            <a class="chip" href="/request?category=temizlik&service=ofis-temizliyi">Ofis təmizliyi</a>
+            <a class="chip" href="/request?category=temizlik&service=pencere-yuyulmasi">Pəncərə yuyulması</a>
+          </div>
+          <h2 class="modal-title" id="t-temizlik">İçindəki hər şey təmizlik</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=temizlik&service=ev-temizliyi">Ev təmizliyi</a></li>
+            <li><a href="/request?category=temizlik&service=temir-sonrasi">Təmir sonrası təmizlik</a></li>
+            <li><a href="/request?category=temizlik&service=ofis-temizliyi">Ofis təmizliyi</a></li>
+            <li><a href="/request?category=temizlik&service=pencere-yuyulmasi">Pəncərə yuyulması</a></li>
+            <li><a href="/request?category=temizlik&service=xalca-mebel">Xalça və mebel yuyulması</a></li>
+            <li><a href="/request?category=temizlik&service=kocme-temizliyi">Köçmə təmizliyi</a></li>
+            <li><a href="/request?category=temizlik&service=pilleken">Pilləkən təmizliyi</a></li>
+            <li><a href="/request?category=temizlik&service=derin-temizlik">Dərin təmizlik</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Daşınma və nəqliyyat -->
+    <div class="modal" id="dasinma-neqliyyat">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-dasinma">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=dasinma&service=koc-xidmeti">Köç xidməti</a>
+            <a class="chip" href="/request?category=dasinma&service=yuk-dasima">Yük daşıma</a>
+            <a class="chip" href="/request?category=dasinma&service=mebel-dasinmasi">Mebel daşınması</a>
+            <a class="chip" href="/request?category=dasinma&service=yukdasiyanlar">Yükdaşıyanlar</a>
+          </div>
+          <h2 class="modal-title" id="t-dasinma">İçindəki hər şey daşınma və nəqliyyat</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=dasinma&service=koc-xidmeti">Köç xidməti</a></li>
+            <li><a href="/request?category=dasinma&service=yuk-dasima">Yük daşıma</a></li>
+            <li><a href="/request?category=dasinma&service=mebel-dasinmasi">Mebel daşınması</a></li>
+            <li><a href="/request?category=dasinma&service=yukdasiyanlar">Yükdaşıyanlar</a></li>
+            <li><a href="/request?category=dasinma&service=pianino-agir-esya">Pianino və ağır əşya daşınması</a></li>
+            <li><a href="/request?category=dasinma&service=anbar">Anbar xidməti</a></li>
+            <li><a href="/request?category=dasinma&service=tullanti">Tullantı daşınması</a></li>
+            <li><a href="/request?category=dasinma&service=seherlerarasi">Şəhərlərarası daşıma</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Saha və torpaq -->
+    <div class="modal" id="saha-torpaq">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-saha">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=saha-torpaq&service=bag-isleri">Bağ işləri</a>
+            <a class="chip" href="/request?category=saha-torpaq&service=agac-kesimi">Ağac kəsimi</a>
+            <a class="chip" href="/request?category=saha-torpaq&service=hasar">Hasar quraşdırılması</a>
+            <a class="chip" href="/request?category=saha-torpaq&service=landsaft">Landşaft dizaynı</a>
+          </div>
+          <h2 class="modal-title" id="t-saha">İçindəki hər şey saha və torpaq</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=saha-torpaq&service=bag-isleri">Bağ işləri</a></li>
+            <li><a href="/request?category=saha-torpaq&service=agac-kesimi">Ağac kəsimi</a></li>
+            <li><a href="/request?category=saha-torpaq&service=hasar">Hasar quraşdırılması</a></li>
+            <li><a href="/request?category=saha-torpaq&service=landsaft">Landşaft dizaynı</a></li>
+            <li><a href="/request?category=saha-torpaq&service=cemen">Çəmən salınması</a></li>
+            <li><a href="/request?category=saha-torpaq&service=yol-meydanca">Yol və meydança işləri</a></li>
+            <li><a href="/request?category=saha-torpaq&service=suvarma">Suvarma sistemi</a></li>
+            <li><a href="/request?category=saha-torpaq&service=torpaq-isleri">Torpaq işləri</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Əmlak -->
+    <div class="modal" id="emlak">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-emlak">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=emlak&service=qiymetlendirme">Əmlakın qiymətləndirilməsi</a>
+            <a class="chip" href="/request?category=emlak&service=idareetme">Əmlak idarəetməsi</a>
+            <a class="chip" href="/request?category=emlak&service=texniki-baxis">Texniki baxış</a>
+          </div>
+          <h2 class="modal-title" id="t-emlak">İçindəki hər şey əmlak</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=emlak&service=qiymetlendirme">Əmlakın qiymətləndirilməsi</a></li>
+            <li><a href="/request?category=emlak&service=idareetme">Əmlak idarəetməsi</a></li>
+            <li><a href="/request?category=emlak&service=texniki-baxis">Texniki baxış</a></li>
+            <li><a href="/request?category=emlak&service=satis">Əmlak satışı</a></li>
+            <li><a href="/request?category=emlak&service=icare">İcarə xidməti</a></li>
+            <li><a href="/request?category=emlak&service=bina-idareetmesi">Bina idarəetməsi (MTK)</a></li>
+            <li><a href="/request?category=emlak&service=senedlesdirme">Sənədləşmə xidməti</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Daxili dizayn və memar -->
+    <div class="modal" id="daxili-dizayn">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-dizayn">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=daxili-dizayn&service=daxili-dizayn">Daxili dizayn</a>
+            <a class="chip" href="/request?category=daxili-dizayn&service=memarliq">Memarlıq layihəsi</a>
+            <a class="chip" href="/request?category=daxili-dizayn&service=metbex-dizayni">Mətbəx dizaynı</a>
+          </div>
+          <h2 class="modal-title" id="t-dizayn">İçindəki hər şey daxili dizayn və memar</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=daxili-dizayn&service=daxili-dizayn">Daxili dizayn</a></li>
+            <li><a href="/request?category=daxili-dizayn&service=memarliq">Memarlıq layihəsi</a></li>
+            <li><a href="/request?category=daxili-dizayn&service=metbex-dizayni">Mətbəx dizaynı</a></li>
+            <li><a href="/request?category=daxili-dizayn&service=mebel-dizayni">Mebel dizaynı</a></li>
+            <li><a href="/request?category=daxili-dizayn&service=3d">3D vizuallaşdırma</a></li>
+            <li><a href="/request?category=daxili-dizayn&service=ofis-dizayni">Ofis dizaynı</a></li>
+            <li><a href="/request?category=daxili-dizayn&service=isiqlandirma">İşıqlandırma planı</a></li>
+            <li><a href="/request?category=daxili-dizayn&service=dekorasiya">Dekorasiya</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. İqtisadiyyat və hüquq -->
+    <div class="modal" id="iqtisadiyyat-huquq">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-huquq">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=iqtisadiyyat-huquq&service=muhasib">Mühasib</a>
+            <a class="chip" href="/request?category=iqtisadiyyat-huquq&service=vekil">Vəkil</a>
+            <a class="chip" href="/request?category=iqtisadiyyat-huquq&service=vergi">Vergi məsləhəti</a>
+          </div>
+          <h2 class="modal-title" id="t-huquq">İçindəki hər şey iqtisadiyyat və hüquq</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=muhasib">Mühasib</a></li>
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=vekil">Vəkil</a></li>
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=vergi">Vergi məsləhəti</a></li>
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=muqavile">Müqavilə hazırlanması</a></li>
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=sirket-qeydiyyati">Şirkət qeydiyyatı</a></li>
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=audit">Audit</a></li>
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=emlak-huququ">Daşınmaz əmlak hüququ</a></li>
+            <li><a href="/request?category=iqtisadiyyat-huquq&service=maliyye-planlasdirmasi">Maliyyə
+                planlaşdırılması</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Veb, İT və dizayn -->
+    <div class="modal" id="veb-it-dizayn">
+      <a class="modal-overlay" href="#" aria-label="Bağla"></a>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="t-veb">
+        <a class="modal-close" href="#" aria-label="Bağla">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </a>
+        <div class="modal-body">
+          <h3 class="modal-label">Populyar</h3>
+          <div class="chips">
+            <a class="chip" href="/request?category=veb-it&service=veb-sayt">Veb sayt hazırlanması</a>
+            <a class="chip" href="/request?category=veb-it&service=loqo">Loqo dizaynı</a>
+            <a class="chip" href="/request?category=veb-it&service=mobil-tetbiq">Mobil tətbiq</a>
+            <a class="chip" href="/request?category=veb-it&service=seo">SEO</a>
+          </div>
+          <h2 class="modal-title" id="t-veb">İçindəki hər şey veb, İT və dizayn</h2>
+          <ul class="service-list">
+            <li><a href="/request?category=veb-it&service=veb-sayt">Veb sayt hazırlanması</a></li>
+            <li><a href="/request?category=veb-it&service=loqo">Loqo dizaynı</a></li>
+            <li><a href="/request?category=veb-it&service=mobil-tetbiq">Mobil tətbiq</a></li>
+            <li><a href="/request?category=veb-it&service=seo">SEO</a></li>
+            <li><a href="/request?category=veb-it&service=onlayn-magaza">Onlayn mağaza</a></li>
+            <li><a href="/request?category=veb-it&service=ui-ux">UI/UX dizayn</a></li>
+            <li><a href="/request?category=veb-it&service=sosial-media">Sosial media idarəetməsi</a></li>
+            <li><a href="/request?category=veb-it&service=it-destek">Kompüter təmiri və IT dəstəyi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

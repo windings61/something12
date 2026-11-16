@@ -1,0 +1,738 @@
+:root {
+  --navy: #0f2d4a;
+  --green: #278a4c;
+  --green-hover: #1f733f;
+  --green-light: #7ed08a;
+  --green-soft: #e3f4e6;
+  --green-soft-hover: #cfebd4;
+  --white: #ffffff;
+  --muted: #5f6f7d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color:#FFF;
+}
+
+.c {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.tb {
+  background-color: #0f2d4a; 
+  color: #ffffff;
+  padding: 12px 0;
+}
+
+.tbc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.l {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.l-icon {
+  background-color: #ffffff;
+  color: #0f2d4a;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.sb {
+  position: relative;
+  flex: 1;
+  max-width: 550px;
+}
+
+.sb input {
+  width: 100%;
+  padding: 10px 16px 10px 42px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.sb input::placeholder {
+  color: #a0a0a0;
+}
+
+.si {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 15px;
+}
+
+.ua {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.abtn {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.abtn:hover {
+  opacity: 0.8;
+}
+.nb {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+
+.nbc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nl {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+}
+
+.nl a {
+  text-decoration: none;
+  color: #1c2b39;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s ease;
+}
+
+.nl a:hover {
+  color: #00a859;
+}
+
+.cd a {
+  color: #0f2d4a;
+}
+
+.di12 {
+  width: 1px;
+  height: 20px;
+  background-color: #e0e0e0;
+}
+.cbtn {
+  background-color: #10b981;
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.cbtn:hover {
+  background-color: #059669;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-img {
+  height: 50px;       
+  width: auto;        
+  object-fit: contain;
+  display: block;
+}
+.hero-banner {
+    width: 95%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 14px;
+    margin: 10px auto;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+@media (max-width: 768px) {
+    .hero-banner {
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-banner {
+        height: 130px;
+    }
+}
+.chos{
+  width: 180px;
+  height: 130px;
+  background-color: #F2F6FD;
+  border-radius: 15px;
+  margin: 40px 0 0 10px;
+}
+.se {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.sec {
+    height: 108px;
+    border: 1px solid #e8edf3;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #fff;
+    color: #142f49;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.sec image {
+    width: 50px;
+    height: 50px;
+    stroke-width: 1.7;
+}
+
+.sec p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+.sec:hover {
+    border-color: #142f49;
+    background: #f8fafc;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 900px) {
+    .se {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .se {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.stk {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1250px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.st {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.stn {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #DCE7F0;
+    color: #142F49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.stc h3 {
+    color: #142F49;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.stc p {
+    color: #526579;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .stk {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .st {
+        gap: 15px;
+    }
+
+    .stc h3 {
+        font-size: 17px;
+    }
+
+    .stc p {
+        font-size: 14px;
+    }
+}
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  place-items: center;
+  padding: 24px;
+}
+
+.modal:target {
+  display: grid;
+}
+
+.modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 32, 54, 0.6);
+  animation: fadeIn 0.2s ease;
+}
+
+.modal-dialog {
+  position: relative;
+  width: 100%;
+  max-width: 940px;
+  max-height: calc(100vh - 48px);
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  animation: popIn 0.2s ease;
+}
+
+.modal-close {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--navy);
+}
+
+.modal-close:hover {
+  background: var(--green-soft);
+}
+
+.modal-close:focus-visible {
+  outline: 3px solid var(--green);
+}
+
+.modal-body {
+  overflow-y: auto;
+  padding: 64px 56px 40px;
+}
+
+.modal-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+/* Populyar etiketlər */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 44px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 12px 20px;
+  background: var(--green-soft);
+  color: var(--navy);
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.chip:hover {
+  background: var(--green-soft-hover);
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+
+.service-list {
+  list-style: none;
+  display: grid;
+  gap: 22px;
+}
+
+.service-list a {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--navy);
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--green);
+  transition: color 0.15s;
+}
+
+.service-list a:hover {
+  color: var(--green);
+}
+
+.service-list a:focus-visible,
+.chip:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-overlay,
+  .modal-dialog {
+    animation: none;
+  }
+}
+
+/* ---------- Mobil ---------- */
+@media (max-width: 640px) {
+  .topbar {
+    padding: 12px 16px;
+  }
+
+  .nav {
+    gap: 16px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 40px 16px 56px;
+  }
+
+  .category-btn {
+    flex: 1 1 100%;
+  }
+
+  .modal {
+    padding: 0;
+  }
+
+  .modal-dialog {
+    max-width: none;
+    max-height: 100vh;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .modal-body {
+    padding: 64px 22px 32px;
+  }
+
+  .modal-close {
+    top: 12px;
+    right: 12px;
+  }
+}
+.hero {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 64px 24px 80px;
+}
+
+.hero h1 {
+  font-size: clamp(30px, 5vw, 44px);
+  line-height: 1.15;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: var(--muted);
+  margin-bottom: 36px;
+}
+
+/* ---------- Kateqoriya düymələri ---------- */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.category-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 22px;
+  background: var(--green-soft);
+  color: var(--navy);
+  border-radius: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+
+.category-btn:hover {
+  background: var(--green-soft-hover);
+  box-shadow: 0 6px 16px rgba(15, 45, 74, 0.1);
+  transform: translateY(-1px);
+}
+
+.category-btn:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
+}
+
+.category-icon {
+  font-size: 22px;
+  line-height: 1;
+}
+/* ---------- Üstünlüklər ---------- */
+.features {
+  background: var(--white);
+  padding: 56px 24px;
+}
+
+.features-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.feature-icon {
+  flex: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--green-soft);
+  color: var(--green-hover);
+  display: grid;
+  place-items: center;
+}
+
+.feature h2 {
+  font-size: 22px;
+  line-height: 1.25;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* ---------- Yaşıl zolaq ---------- */
+.find-band {
+  background: #d4efd8;
+  padding: 72px 24px;
+}
+
+.find-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.find-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 14px;
+  font-size: clamp(28px, 4.5vw, 44px);
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* Dəyişən əl yazısı sözü (yalnız CSS) */
+/* "* { font-family }" qaydasını ləğv etmək üçün uşaq elementlərə də verilir */
+.rotator,
+.rotator * {
+  font-family: "Caveat", "Segoe Print", "Bradley Hand", cursive;
+}
+
+.rotator {
+  display: inline-block;
+  height: 1.3em;
+  overflow: hidden;
+  vertical-align: bottom;
+  font-family: "Caveat", "Segoe Print", "Bradley Hand", cursive;
+  font-weight: 500;
+  font-size: 1.15em;
+  color: var(--green-hover);
+}
+
+.rotator-list {
+  display: flex;
+  flex-direction: column;
+  animation: rotate-words 15s ease-in-out infinite;
+}
+
+.rotator-list span {
+  display: block;
+  height: 1.3em;
+  line-height: 1.3em;
+  white-space: nowrap;
+}
+
+/* 5 söz + təkrar ilk söz: hər söz ~3 saniyə qalır */
+@keyframes rotate-words {
+  0%, 16%   { transform: translateY(0); }
+  20%, 36%  { transform: translateY(-1.3em); }
+  40%, 56%  { transform: translateY(-2.6em); }
+  60%, 76%  { transform: translateY(-3.9em); }
+  80%, 96%  { transform: translateY(-5.2em); }
+  100%      { transform: translateY(-6.5em); }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rotator-list {
+    animation: none;
+  }
+}
+
+/* ---------- Mobil ---------- */
+@media (max-width: 900px) {
+  .features-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .features {
+    padding: 40px 16px;
+  }
+
+  .find-band {
+    padding: 48px 16px;
+  }
+
+  .topbar {
+    padding: 12px 16px;
+  }
+
+  .nav {
+    gap: 16px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 40px 16px 56px;
+  }
+
+  .category-btn {
+    flex: 1 1 100%;
+  }
+
+  .modal {
+    padding: 0;
+  }
+
+  .modal-dialog {
+    max-width: none;
+    max-height: 100vh;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .modal-body {
+    padding: 64px 22px 32px;
+  }
+
+  .modal-close {
+    top: 12px;
+    right: 12px;
+  }
+}

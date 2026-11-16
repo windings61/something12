@@ -546,3 +546,176 @@ body {
   font-size: 22px;
   line-height: 1;
 }
+/* ---------- Üstünlüklər ---------- */
+.features {
+  background: var(--white);
+  padding: 56px 24px;
+}
+
+.features-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.feature-icon {
+  flex: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--green-soft);
+  color: var(--green-hover);
+  display: grid;
+  place-items: center;
+}
+
+.feature h2 {
+  font-size: 22px;
+  line-height: 1.25;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* ---------- Yaşıl zolaq ---------- */
+.find-band {
+  background: #d4efd8;
+  padding: 72px 24px;
+}
+
+.find-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.find-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 14px;
+  font-size: clamp(28px, 4.5vw, 44px);
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* Dəyişən əl yazısı sözü (yalnız CSS) */
+.rotator {
+  display: inline-block;
+  height: 1.3em;
+  overflow: hidden;
+  vertical-align: bottom;
+  font-family: "Caveat", "Segoe Print", "Bradley Hand", cursive;
+  font-weight: 500;
+  font-size: 1.15em;
+  color: var(--green-hover);
+}
+
+.rotator-list {
+  display: flex;
+  flex-direction: column;
+  animation: rotate-words 15s ease-in-out infinite;
+}
+
+.rotator-list span {
+  display: block;
+  height: 1.3em;
+  line-height: 1.3em;
+  white-space: nowrap;
+}
+
+/* 5 söz + təkrar ilk söz: hər söz ~3 saniyə qalır */
+@keyframes rotate-words {
+  0%, 16%   { transform: translateY(0); }
+  20%, 36%  { transform: translateY(-1.3em); }
+  40%, 56%  { transform: translateY(-2.6em); }
+  60%, 76%  { transform: translateY(-3.9em); }
+  80%, 96%  { transform: translateY(-5.2em); }
+  100%      { transform: translateY(-6.5em); }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rotator-list {
+    animation: none;
+  }
+}
+
+/* ---------- Mobil ---------- */
+@media (max-width: 900px) {
+  .features-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .features {
+    padding: 40px 16px;
+  }
+
+  .find-band {
+    padding: 48px 16px;
+  }
+
+  .topbar {
+    padding: 12px 16px;
+  }
+
+  .nav {
+    gap: 16px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 40px 16px 56px;
+  }
+
+  .category-btn {
+    flex: 1 1 100%;
+  }
+
+  .modal {
+    padding: 0;
+  }
+
+  .modal-dialog {
+    max-width: none;
+    max-height: 100vh;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .modal-body {
+    padding: 64px 22px 32px;
+  }
+
+  .modal-close {
+    top: 12px;
+    right: 12px;
+  }
+}
